@@ -1,4 +1,4 @@
-.navbar{
+.nav{
     background-color: #395249;
     width: 100%;
     align-content: center;
@@ -11,31 +11,32 @@
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 25px;
-    margin-bottom: 0;
     padding: .5em 1em;
     letter-spacing: .5em;
-    width: 100%;
+    /* width: 50%; */
+    margin: auto;
 }
 .brandName2{
     margin-top:0;
     display: block;
 }
 .level{
-    /* padding-top: 2em; */
+   
 }
 #navbarList{
-    background-color: #395249
+    background-color: #395249;
+    font-size: 1.2em;
+    animation: fade .5s linear forwards
 }
 .burger{
     color:white;
 }
 a{
-    color:white
+    color:white;
+    padding: .5em;
 }
 a:hover{
     color: white;
-    font-size: 1.5em;
-    
 }
 a:hover::after{
     content: "";
@@ -49,4 +50,32 @@ a:hover::after{
         background-color: #395249;
         display: block;
     }
+
+    .brandName{
+        color: white;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        font-size: 25px;
+        padding: .5em 1em;
+        letter-spacing: .5em;
+        width: 50%;
+        margin: auto;
+    }
   }
+  @keyframes fade {
+    from {
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(-10px);
+    }
+    to { 
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+  }
+  
+  /* .dropdown {
+     animation: fade 1s linear forwards;
+  } */

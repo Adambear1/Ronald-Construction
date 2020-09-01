@@ -12,7 +12,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="navbar" role="navigation" aria-label="main navigation">
+    <nav className="nav" role="navigation" aria-label="main navigation">
       <div className="">
       <p className="brandName">
     Ronald<span className="brandName2">Landscaping</span>
@@ -32,22 +32,27 @@ function Navbar() {
         </a>
       </div>
 
-      <div id="navbarList" className= {burgerClick ? 'navbar-menu is-active' : "navbar-menu"}>
+      <div id="navbarList" className= {burgerClick ? 'navbar-menu is-active dropdown' : "navbar-menu dropdown"}>
         <nav className="level">
           <p className="level-item has-text-centered">
-            <a className="">History</a>
+            <a className="link is-info"
+            onClick={handleToggle}>History</a>
           </p>
           <p className="level-item has-text-centered">
-            <a className="link is-info">Service Map</a>
+            <a className="link is-info"
+            onClick={handleToggle}>Service Map</a>
           </p>
           <p className="level-item has-text-centered">
-            <a className="link is-info">About</a>
+            <a className="link is-info"
+            onClick={handleToggle}>About</a>
           </p>
           <p className="level-item has-text-centered">
-            <a className="link is-info">Customer Photos</a>
+            <a className="link is-info"
+            onClick={handleToggle}>Customer Photos</a>
           </p>
           <p className="level-item has-text-centered">
-            <a className="link is-info">Book Now</a>
+            <a className="link is-info"
+            onClick={handleToggle}>Book Now</a>
           </p>
         </nav>
       </div>
