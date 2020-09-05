@@ -1,0 +1,50 @@
+.each-slide > div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+  
+  }
+  
+  .each-slide span {
+    width: 100%;
+    /* opacity: .33; */
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: white;
+  }
+  
+.react-slideshow-container .default-nav{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    display: none;
+}
+.review, .review-name{
+    font-style: italic;
+    font-size: .75em;
+}
+  .section{
+      overflow: hidden;
+  }
+  @media only screen and (min-width: 1024px) {
+    #navbarList{
+        background-color: #395249;
+        display: block;
+        padding-bottom: 1em;
+        
+    }
+    
+
+    .each-slide > div {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        background-size: cover;
+        height: 900px;
+        width: 100%;
+      }
+  }

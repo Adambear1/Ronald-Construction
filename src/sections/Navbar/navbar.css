@@ -20,8 +20,8 @@
     margin-top:0;
     display: block;
 }
-.level{
-   
+.title{
+   color: #395249;
 }
 #navbarList{
     background-color: #395249;
@@ -37,6 +37,7 @@ a{
 }
 a:hover{
     color: white;
+    padding-bottom: 8.6px;
 }
 a:hover::after{
     content: "";
@@ -49,14 +50,17 @@ a:hover::after{
     #navbarList{
         background-color: #395249;
         display: block;
+        padding-bottom: 1em;
+        
     }
+    
 
     .brandName{
         color: white;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
         text-transform: uppercase;
-        font-size: 25px;
+        font-size: 1.75em;
         padding: .5em 1em;
         letter-spacing: .5em;
         width: 50%;
@@ -75,7 +79,18 @@ a:hover::after{
       transform: translateY(0);
     }
   }
-  
-  /* .dropdown {
-     animation: fade 1s linear forwards;
-  } */
+
+  .btn{
+    background: none;
+    /* border-style: solid;
+    border-color: #F97B62; */
+    border: thin solid #F97B62;
+    border-radius: 30px;
+  }
+  .btn:hover{
+    background: #F97B62;
+    color:white;
+    border-color: #F97B62;
+    border-radius: 25px;
+
+  }

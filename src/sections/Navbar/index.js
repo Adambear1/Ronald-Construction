@@ -36,22 +36,25 @@ function Navbar() {
         <nav className="level">
           <p className="level-item has-text-centered">
             <a className="link is-info"
+            href="#history"
             onClick={handleToggle}>History</a>
           </p>
           <p className="level-item has-text-centered">
             <a className="link is-info"
+            href="#location"
             onClick={handleToggle}>Service Map</a>
           </p>
           <p className="level-item has-text-centered">
             <a className="link is-info"
-            onClick={handleToggle}>About</a>
+            href="#services"
+            onClick={handleToggle}>Services</a>
           </p>
           <p className="level-item has-text-centered">
             <a className="link is-info"
             onClick={handleToggle}>Customer Photos</a>
           </p>
           <p className="level-item has-text-centered">
-            <a className="link is-info"
+            <a className="link is-info btn"
             onClick={handleToggle}>Book Now</a>
           </p>
         </nav>

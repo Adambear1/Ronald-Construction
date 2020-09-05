@@ -1,0 +1,29 @@
+hr{
+    background-color:#F97B62;
+    border: none;
+    display: block;
+    height: 1px;
+    margin: 0;
+
+}
+.circle{
+    border-radius: 3%;
+}
+.section{
+    padding: 2em 1.5em
+}
+
+@media only screen and (min-width: 1024px) {
+    #navbarList{
+        background-color: #395249;
+        display: block;
+        padding-bottom: 1em;
+        
+    }
+    hr{
+        margin: 1.5em
+    }
+
+   
+  }
+
