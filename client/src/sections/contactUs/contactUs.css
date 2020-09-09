@@ -1,0 +1,24 @@
+.form {
+    /* background-color: #395249; */
+    color: white;
+    padding: 1em;
+    border-radius: 6px;
+}
+
+.label{
+    color:#395249;;
+}
+.input{
+/* background: none;
+border: none;
+border-bottom-style: solid;
+border-bottom-color:#F97B62;
+border-bottom-width: 1px;
+border-radius: 0px;
+color:white; */
+}
+@media only screen and (min-width: 1024px) {
+    #form{
+        margin-top: 3em;
+    }
+  }

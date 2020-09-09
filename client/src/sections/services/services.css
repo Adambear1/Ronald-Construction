@@ -1,0 +1,16 @@
+.card{
+    margin: 1em 0em;
+    border-radius: 6px;
+}
+
+img{
+    border-radius: 6px;
+}
+
+@media only screen and (min-width: 1024px) {
+    .card{
+        margin: 0em 1em;
+    }
+
+   
+  }
