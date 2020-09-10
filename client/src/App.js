@@ -12,13 +12,17 @@ function App() {
   return (
     <div>
       <Navbar />
-      <CustomerReviews />
+      
       <Container>
         <History />
         <Location />
         <Services />
-        <ContactUs />
       </Container>
+      <CustomerReviews />
+      <Container>
+      <ContactUs />
+      </Container>
+      
     </div>
   );
 }
