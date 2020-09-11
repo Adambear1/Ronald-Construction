@@ -1,7 +1,7 @@
-require("dotenv").config();
-const express = require("express");
-const router = express.Router();
-const { newInquiry } = require("../../utils/nodemailer/newInquiry")
+// require("dotenv").config();
+// const express = require("express");
+// const router = express.Router();
+// const { newInquiry } = require("../../utils/nodemailer/newInquiry")
 
 // router.post(
 //     "/inquire",

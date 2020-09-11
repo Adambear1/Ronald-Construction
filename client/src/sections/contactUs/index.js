@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./contactUs.css";
-import API from "../../utils/api"
+// import API from "../../utils/api"
 
 
 

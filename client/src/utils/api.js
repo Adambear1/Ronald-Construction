@@ -1,7 +1,7 @@
-import axios from "axios"
+// import axios from "axios"
 
-export default {
-    newInquiry: (data) => {
-        return axios.post("/api/inquire", data)
-    }
-}
+// export default {
+//     newInquiry: (data) => {
+//         return axios.post("/api/inquire", data)
+//     }
+// }
