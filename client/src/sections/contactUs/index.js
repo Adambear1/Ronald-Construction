@@ -24,9 +24,9 @@ function ContactUs() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("clicked")
-    API.newInquiry({formState: formState}).then(res => {
-      console.log(res)
-    })
+    // API.newInquiry({formState: formState}).then(res => {
+    //   console.log(res)
+    // })
   }
   return (
     <div id="form" className="container">
