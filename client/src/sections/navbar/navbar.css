@@ -31,15 +31,15 @@
 .burger{
     color:white;
 }
-a{
+.link{
     color:white;
     padding: .5em;
 }
-a:hover{
+.link:hover{
     color: white;
     padding-bottom: 8.6px;
 }
-a:hover::after{
+.link:hover::after{
     content: "";
     height: 1px;
     display: block;
@@ -93,4 +93,17 @@ a:hover::after{
     border-color: #F97B62;
     border-radius: 25px;
 
+  }
+
+  #homeButton{
+    position: fixed;
+    bottom: 3em;
+    right: 3em;
+    z-index: +1;
+    padding: 1.5em 1.0em;
+    border-radius: 100px;
+    color: white;
+    background-color: #F97B62;
+    border-color: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   }

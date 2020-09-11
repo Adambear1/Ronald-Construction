@@ -12,7 +12,8 @@ function Navbar() {
   }
 
   return (
-    <nav className="nav" role="navigation" aria-label="main navigation">
+    <div>
+    <nav id="nav" className="nav" role="navigation" aria-label="main navigation">
       <div className="">
       <p className="brandName">
     Ronald<span className="brandName2">Landscaping</span>
@@ -51,21 +52,22 @@ function Navbar() {
           </p>
           <p className="level-item has-text-centered">
             <a className="link is-info"
-            onClick={handleToggle}>Customer Photos</a>
+            href="#customerReviews"
+            onClick={handleToggle}>Customer Reviews</a>
           </p>
           <p className="level-item has-text-centered">
             <a className="link is-info btn"
-            onClick={handleToggle}>Book Now</a>
+            href="#form"
+            onClick={handleToggle}>Contact Us</a>
           </p>
         </nav>
       </div>
       </div>
     </nav>
+    <a id="homeButton" href="#nav"className="button"><i class="fas fa-home"></i></a>
+    </div>
   );
 }
 
 export default Navbar;
-// <div className="navSection">
 
-//
-// </div>

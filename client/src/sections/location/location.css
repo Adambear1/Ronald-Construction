@@ -1,3 +1,21 @@
 .location-title{
     color: #395249;
 }
+#location{
+    margin-top: 1.5em;
+}
+/* .maps{
+    margin-left: 12px;
+    margin-right: -12px;
+
+} */
+
+@media only screen and (min-width: 1024px) {
+    .maps{
+        margin-left: 12px;
+        margin-right: -12px;
+    
+    }
+
+   
+  }

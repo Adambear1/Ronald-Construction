@@ -7,6 +7,7 @@ import Location from './sections/location'
 import Services from './sections/services';
 import CustomerReviews from './sections/customerReviews';
 import ContactUs from './sections/contactUs';
+import Footer from './sections/footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Container>
       <ContactUs />
       </Container>
+      <Footer/>
       
     </div>
   );

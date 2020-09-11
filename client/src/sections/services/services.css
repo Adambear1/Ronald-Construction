@@ -3,6 +3,13 @@
     border-radius: 6px;
 }
 
+#services{
+    margin-top: 1.5em;
+}
+.serveHr{
+    margin-bottom: 3em;
+    margin-top: 1.5em;
+}
 img{
     border-radius: 6px;
 }
@@ -11,6 +18,9 @@ img{
     .card{
         margin: 0em 1em;
     }
-
+    hr{
+        margin-bottom: 3em;
+        margin-top: 1.5em;
+    }
    
   }

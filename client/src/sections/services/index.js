@@ -25,9 +25,9 @@ function Services() {
   return (
     <div id="services" className="container">
       <h1 className="title">Services</h1>
-      <hr />
-      <div className="">
-      <row className="columns">           
+      <hr className="serveHr"/>
+      {/* <div className=""> */}
+      <div className="columns">           
           {servicesArr.map(service => {
            return( <div>
             <div class="card column">
@@ -54,8 +54,8 @@ function Services() {
         
           
     
-      </row>
       </div>
+      {/* </div> */}
     </div>
   );
 }

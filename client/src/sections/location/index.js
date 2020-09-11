@@ -8,8 +8,8 @@ function Location() {
       <h1 className="title">Service Location</h1>
       <hr />
       <row className="columns">
-        <div className= "box">
-        <figure className="col">
+        <div className= "box column is-5 maps">
+        <figure className="">
           <img className="image circle" src={maps} />
         </figure>
         </div>

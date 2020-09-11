@@ -15,9 +15,9 @@ function CustomerReviews() {
 ];
     return (
         <div>
-            <div className="section">
+            <div id="customerReviews"className="section">
             <h1 className="title">Customer Reviews</h1>
-      <hr />
+            <hr />
             </div>
             
         <Slide easing="ease">
